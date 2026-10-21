@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0D2136">
+  <meta name="description" content="SyCogni provides AI-assisted, human-verified data labelling services and custom AI models.">
+  <title>SiCognic — Synchronized Cognition</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0D2136; --heading:#8FD9FA; --text:#E8F5FF; --muted:#A4B5C5; --rule:#476073; }
+    * { box-sizing: border-box; }
+    html { min-height:100%; background:var(--bg); }
+    body { margin:0; min-height:100svh; background:var(--bg); color:var(--text); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; -webkit-font-smoothing:antialiased; display:grid; place-items:center; }
+    main { width:min(100% - 48px, 680px); padding:clamp(56px,9vh,110px) 0; }
+    h1 { margin:0; color:var(--heading); font-size:clamp(2.6rem,6vw,4rem); line-height:1.08; letter-spacing:-.055em; font-weight:650; }
+    .subtitle { margin:12px 0 0; color:var(--muted); font-size:clamp(.9rem,1.8vw,1rem); letter-spacing:.01em; }
+    .intro { margin-top:clamp(48px,8vh,78px); }
+    .accent { width:54px; height:1px; background:var(--rule); margin-bottom:30px; }
+    .intro h2 { margin-bottom:18px; }
+    .intro p { font-size:clamp(1.05rem,2.1vw,1.25rem); line-height:1.7; letter-spacing:-.012em; margin:0 0 18px; max-width:620px; }
+    .research { border-top:1px solid var(--rule); margin-top:clamp(38px,7vh,62px); padding-top:28px; }
+    h2 { color:var(--heading); font-size:1.05rem; font-weight:600; margin:0 0 14px; letter-spacing:.01em; }
+    .research p { color:#C0CEDB; font-size:clamp(.98rem,1.8vw,1.08rem); line-height:1.8; margin:0; }
+    footer { border-top:1px solid var(--rule); margin-top:clamp(36px,7vh,60px); padding-top:25px; color:var(--muted); font-size:.95rem; }
+    a { color:var(--heading); text-decoration:underline; text-decoration-color:transparent; text-underline-offset:4px; overflow-wrap:anywhere; }
+    a:hover, a:focus-visible { text-decoration-color:currentColor; }
+    a:focus-visible { outline:2px solid var(--heading); outline-offset:4px; border-radius:2px; }
+    @media (max-width:480px) { main { width:calc(100% - 40px); padding:64px 0; } .intro { margin-top:48px; } .intro h2 { margin-bottom:18px; }
+    .intro p { line-height:1.65; } .research { margin-top:38px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>SiCognic</h1>
+      <p class="subtitle">Synchronized Cognition</p>
+    </header>
+    <section class="intro" aria-labelledby="services-title">
+      <div class="accent" aria-hidden="true"></div>
+      <h2 id="services-title">What We Do</h2>
+      <p>AI-assisted, human-verified data labelling services.</p>
+      <p>Custom AI model development that integrates into your workflows.</p>
+    </section>
+    <section class="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <p>We believe self-supervised representation learning has made remarkable progress in language, while important challenges remain across other data modalities. Through our research, we also aim to push these boundaries across diverse data modalities and specialized applications.</p>
+    </section>
+    <footer>Contact: <a href="mailto:comms@sicognic.com">comms@sicognic.com</a></footer>
+  </main>
+</body>
+</html>
